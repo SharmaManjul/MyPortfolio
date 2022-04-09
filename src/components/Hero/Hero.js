@@ -20,7 +20,7 @@ const Hero = () => (
         <span style={{color:'#A2E8DD'}}>{"},"}</span><br />
         <span style={{color:'#E18335'}}>location</span> : United States,          
       </JsonText>
-      <JsonText style={{color:'#A2E8DD'}}>{"}"}</JsonText>
+      <div style={{color:'#A2E8DD', fontWeight: "600", fontSize: "24px"}}>{"}"}</div>
     </LeftSection>
   </Section>
 );

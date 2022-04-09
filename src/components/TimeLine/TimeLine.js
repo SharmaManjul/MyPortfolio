@@ -44,7 +44,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>Timeline</SectionTitle>
+      <SectionDivider/>
+      <SectionTitle style={{paddingTop: "5rem"}}>Timeline</SectionTitle>
         <SectionText>
           How did you start learning or big milestones.
         </SectionText>

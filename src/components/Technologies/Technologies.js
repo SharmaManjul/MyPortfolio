@@ -1,45 +1,106 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import {SiMicrosoftazure, SiSpring, SiJest, SiMongodb, SiGit, SiCplusplus, SiTerraform, SiServerless, SiDatadog, SiDocker} from 'react-icons/si'
+import {FaNode, FaReact, FaPython, FaJava, FaAws} from 'react-icons/fa';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, GridContainer } from './TechnologiesStyles';
+import { techs } from '../../constants/constants';
 
 const Technologies = () =>  (
   <Section id="tech">
       <SectionDivider/>
       <SectionTitle style={{paddingTop: "5rem"}}>Technologies</SectionTitle>
-      <SectionText>Worked with a lot of Technologies...</SectionText>
-      <List>
+      <GridContainer>
+        {/* React.js */}
         <ListItem>
-          <DiReact size="3rem"/>
           <ListContainer>
-            <ListTitle>Front-end</ListTitle>
-            <ListParagraph>
-              Experience with <br />
-              Node.js
-            </ListParagraph>
+            <FaReact size="6rem"/>
           </ListContainer>
         </ListItem>
+        {/* nodejs */}
         <ListItem>
-          <DiFirebase size="3rem"/>
           <ListContainer>
-            <ListTitle>Back-end</ListTitle>
-            <ListParagraph>
-              Experience with <br />
-              React.js
-            </ListParagraph>
+            <FaNode size="10rem"/>
           </ListContainer>
         </ListItem>
+        {/* Python */}
         <ListItem>
-          <DiZend size="3rem"/>
           <ListContainer>
-            <ListTitle>UI/UX</ListTitle>
-            <ListParagraph>
-              Experience with <br />
-              Figma
-            </ListParagraph>
+            <FaPython size="6rem"/>
           </ListContainer>
         </ListItem>
-      </List>
+        {/* Java */}
+        <ListItem>
+          <ListContainer>
+            <FaJava size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* Spring */}
+        <ListItem>
+          <ListContainer>
+            <SiSpring size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* C++ */}
+        <ListItem>
+          <ListContainer>
+            <SiCplusplus size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* AWS */}
+        <ListItem>
+          <ListContainer>
+            <FaAws size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* Azure */}
+        <ListItem>
+          <ListContainer>
+            <SiMicrosoftazure size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* Terraform */}
+        <ListItem>
+          <ListContainer>
+            <SiTerraform size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* Serverless */}
+        <ListItem>
+          <ListContainer>
+            <SiServerless size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* Mongo */}
+        <ListItem>
+          <ListContainer>
+            <SiMongodb size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* Jest */}
+        <ListItem>
+          <ListContainer>
+            <SiJest size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* Datadog */}
+        <ListItem>
+          <ListContainer>
+            <SiDatadog size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* Git */}
+        <ListItem>
+          <ListContainer>
+            <SiGit size="6rem"/>
+          </ListContainer>
+        </ListItem>
+        {/* Docker */}
+        <ListItem>
+          <ListContainer>
+            <SiDocker size="6rem"/>
+          </ListContainer>
+        </ListItem>
+      </GridContainer>
   </Section>
 );
 

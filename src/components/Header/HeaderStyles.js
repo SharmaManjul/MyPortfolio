@@ -20,6 +20,7 @@ export const Container = styled.div`
 
 export const Span = styled.div`
   font-size: 3rem;
+  margin: 1rem;
 `;
 
 export const Div1 = styled.div`
@@ -53,7 +54,7 @@ export const Div3 = styled.div`
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
-  line-height: 32px;
+  line-height: 52px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   &:hover {

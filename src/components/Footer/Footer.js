@@ -22,13 +22,13 @@ const Footer = () => {
           <Slogan>Learn and grow!</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/SharmaManjul">
+          <SocialIcons href="https://github.com/SharmaManjul" target="_blank" rel="noopener noreferrer">
             <AiFillGithub size="3rem"/>
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/manjul-sharma/">
+          <SocialIcons href="https://www.linkedin.com/in/manjul-sharma/" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin size="3rem"/>
           </SocialIcons>
-          <SocialIcons href="https://medium.com/@manjul.sharma">
+          <SocialIcons href="https://medium.com/@manjul.sharma" target="_blank" rel="noopener noreferrer">
             <AiFillMediumCircle size="3rem"/>
           </SocialIcons>
         </SocialContainer>

@@ -17,3 +17,12 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const JsonText = styled.p`
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 56px;
+  width: max-content;
+  max-width: 100%;
+  margin-bottom: 16px;
+`;

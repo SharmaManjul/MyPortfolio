@@ -1,5 +1,5 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import styled, {keyframes} from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
@@ -127,4 +127,18 @@ border-radius: 50px;
     cursor: pointer;
     
   }
+`
+
+//Blinking Underscore
+function blinkingEffect() {
+  return keyframes`
+    50% {
+      opacity: 0;
+    }
+  `;
+}
+
+export const BlinkingUnderscore = styled.div`
+  font-size: 3rem;
+  animation: ${blinkingEffect} 1s linear infinite;
 `

@@ -43,7 +43,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
+    <Section>
       <SectionDivider/>
       <SectionTitle style={{paddingTop: "5rem"}}>Timeline</SectionTitle>
         <SectionText>

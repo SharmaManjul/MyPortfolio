@@ -1,3 +1,4 @@
+import About from '../components/About/About';
 import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
@@ -14,9 +15,10 @@ const Home = () => {
         <Hero />
         <BgAnimation />
       </Section>
+      <About/>
+      {/* <br/>
       <br/>
-      <br/>
-      <Timeline />
+      <Timeline /> */}
       <br/>
       <br/>
       <Technologies />

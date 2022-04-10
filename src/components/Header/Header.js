@@ -11,22 +11,24 @@ const Header = () =>  (
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px"}}>
           <BsCodeSlash size="3rem" color='#60992D'/>
-          <Span>Portfolio</Span>
-          <BlinkingUnderscore>_</BlinkingUnderscore>
+          <Span style={{ color: "#C8E0F4" }}>Portfolio</Span>
+          <BlinkingUnderscore style={{ color: "#C8E0F4" }}>_</BlinkingUnderscore>
         </a>
       </Link>
     </Div1>
     <Div2>
-    <li>
+      <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <text style={{paddingTop: "15px"}}>|</text>
       <li>
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
-      </li>      
+      </li>
+      <text style={{paddingTop: "15px"}}>|</text>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>

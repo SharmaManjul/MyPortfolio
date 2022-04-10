@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     title: 'Smart Traffic',
-    description: "Modeling smart traffic lights using OO in python that react to real time traffic and help reduce congestion. *Dev in progress ",
+    description: "Modeling smart traffic lights using OOP in python that react to real time traffic and help reduce congestion. *Dev in progress ",
       image: '/images/SmartTraffic.png',
       tags: ['Pytyhon', 'OOP'],
     visit: 'https://github.com/SharmaManjul/SmartTraffic',

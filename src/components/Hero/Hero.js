@@ -18,7 +18,7 @@ const Hero = () => (
           <span style={{color:'#E18335'}}>university</span> : UMD
         </JsonText>
         <span style={{color:'#A2E8DD'}}>{"},"}</span><br />
-        <span style={{color:'#E18335'}}>location</span> : United States,          
+        <span style={{color:'#E18335'}}>location</span> : United States          
       </JsonText>
       <div style={{color:'#A2E8DD', fontWeight: "600", fontSize: "24px"}}>{"}"}</div>
     </LeftSection>

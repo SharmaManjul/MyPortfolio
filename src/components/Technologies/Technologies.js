@@ -13,91 +13,91 @@ const Technologies = () =>  (
         {/* React.js */}
         <ListItem>
           <ListContainer>
-            <FaReact size="6rem"/>
+            <FaReact size="6rem" title='React.js'/>
           </ListContainer>
         </ListItem>
         {/* nodejs */}
         <ListItem>
           <ListContainer>
-            <FaNode size="10rem"/>
+            <FaNode size="10rem" title='Node.js'/>
           </ListContainer>
         </ListItem>
         {/* Python */}
         <ListItem>
           <ListContainer>
-            <FaPython size="6rem"/>
+            <FaPython size="6rem" title='Python'/>
           </ListContainer>
         </ListItem>
         {/* Java */}
         <ListItem>
           <ListContainer>
-            <FaJava size="6rem"/>
+            <FaJava size="6rem" title='Terraform'/>
           </ListContainer>
         </ListItem>
         {/* Spring */}
         <ListItem>
           <ListContainer>
-            <SiSpring size="6rem"/>
+            <SiSpring size="6rem" title='Spring'/>
           </ListContainer>
         </ListItem>
         {/* C++ */}
         <ListItem>
           <ListContainer>
-            <SiCplusplus size="6rem"/>
+            <SiCplusplus size="6rem" title='C++'/>
           </ListContainer>
         </ListItem>
         {/* AWS */}
         <ListItem>
           <ListContainer>
-            <FaAws size="6rem"/>
+            <FaAws size="6rem" title='AWS'/>
           </ListContainer>
         </ListItem>
         {/* Azure */}
         <ListItem>
           <ListContainer>
-            <SiMicrosoftazure size="6rem"/>
+            <SiMicrosoftazure size="6rem" title='Azure'/>
           </ListContainer>
         </ListItem>
         {/* Terraform */}
         <ListItem>
           <ListContainer>
-            <SiTerraform size="6rem"/>
+            <SiTerraform size="6rem" title='Terraform'/>
           </ListContainer>
         </ListItem>
         {/* Serverless */}
         <ListItem>
           <ListContainer>
-            <SiServerless size="6rem"/>
+            <SiServerless size="6rem" title='Serverless'/>
           </ListContainer>
         </ListItem>
         {/* Mongo */}
         <ListItem>
           <ListContainer>
-            <SiMongodb size="6rem"/>
+            <SiMongodb size="6rem" title='Mongo'/>
           </ListContainer>
         </ListItem>
         {/* Jest */}
         <ListItem>
           <ListContainer>
-            <SiJest size="6rem"/>
+            <SiJest size="6rem" title='Jest'/>
           </ListContainer>
         </ListItem>
         {/* Datadog */}
         <ListItem>
           <ListContainer>
-            <SiDatadog size="6rem"/>
+            <SiDatadog size="6rem" title='Datadog'/>
           </ListContainer>
         </ListItem>
         {/* Git */}
         <ListItem>
           <ListContainer>
-            <SiGit size="6rem"/>
+            <SiGit size="6rem" title='Git'/>
           </ListContainer>
         </ListItem>
         {/* Docker */}
         <ListItem>
           <ListContainer>
-            <SiDocker size="6rem"/>
+            <SiDocker size="6rem" title='Docker'/>
           </ListContainer>
         </ListItem>
       </GridContainer>

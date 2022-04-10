@@ -1,25 +1,33 @@
 import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
-const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
+import { Box, Boxes, BoxText, SocialIcons } from './AcomplishmentsStyles';
+import { AiFillMediumCircle } from 'react-icons/ai';
+import { GiArchiveResearch } from 'react-icons/gi'
+import { FaAws } from 'react-icons/fa'
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Personal Acheivements</SectionTitle>
+    <SectionTitle>Personal Achievements</SectionTitle>
     <Boxes>
-      {data.map((card, index) => (
-        <Box key={index}>
-          <BoxNum>{card.number}+</BoxNum>
-          <BoxText>{card.text}</BoxText>
+        <Box>
+          <SocialIcons href="https://medium.com/@manjul.sharma" target="_blank" rel="noopener noreferrer">
+          <AiFillMediumCircle size="5rem"/>
+          </SocialIcons>
+          <BoxText>Started a tech blog</BoxText>
         </Box>
-      ))}
+        <Box>
+          <SocialIcons href="https://conservancy.umn.edu/handle/11299/219510" target="_blank" rel="noopener noreferrer">
+          <GiArchiveResearch size="5rem"/>
+          </SocialIcons>
+          <BoxText>Plublished research paper</BoxText>
+        </Box>
+        <Box>
+          <SocialIcons href="https://www.credly.com/badges/0fcd2e60-b459-4780-8fa4-51ca02a80380" target="_blank" rel="noopener noreferrer">
+          <FaAws size="5rem"/>
+          </SocialIcons>
+          <BoxText>AWS CP Certified</BoxText>
+        </Box>
     </Boxes>
   </Section>
 );

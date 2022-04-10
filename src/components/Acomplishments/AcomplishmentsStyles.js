@@ -27,20 +27,26 @@ export const Box = styled.div`
   border-radius: 12px;
   height: 144px;
   padding: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
-
+    margin: 0 auto;
   }
 
   @media ${props => props.theme.breakpoints.md} {
     height: 135px;
     padding: 16px;
+    margin: 0 auto;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
     height: 110px;
     padding: 12px;
-    
+    margin: 0 auto;
+
     &:nth-child(2n){
       grid-row:2;
     }
@@ -72,6 +78,7 @@ export const BoxText = styled.p`
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
+  padding-left: 1rem;
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
@@ -130,5 +137,18 @@ export const IconContainer = styled.div`
   @media ${props => props.theme.breakpoints.sm}{
     width: 160px;
     justify-content: space-between;
+  }
+`
+
+export const SocialIcons = styled.a`
+transition: 0.3s ease;
+color: white;
+border-radius: 50px;
+  padding: 8px;
+&:hover {
+    background-color: grey;
+    transform: scale(1.2);
+    cursor: pointer;
+    
   }
 `

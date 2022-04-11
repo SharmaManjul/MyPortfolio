@@ -25,4 +25,12 @@ export const JsonText = styled.p`
   width: max-content;
   max-width: 100%;
   margin-bottom: 16px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 56px;
+    width: max-content;
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
 `;

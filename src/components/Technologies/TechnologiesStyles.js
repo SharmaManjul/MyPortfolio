@@ -141,10 +141,24 @@ place-items: center;
 column-gap: 2rem;
 row-gap: 8rem;
 @media ${(props) => props.theme.breakpoints.sm} {
-  display: flex;
-  flex-direction: column;
-  padding: 3rem;
-  padding-bottom: 0;
-}
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  padding: 0rem;
+  place-items: center;
+  column-gap: 0rem;
+  row-gap: 0rem;
+`
 
+export const SocialIcons = styled.a`
+transition: 0.3s ease;
+color: white;
+border-radius: 50px;
+  padding: 8px;
+&:hover {
+    title: "React";
+    background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
+    
+  }
 `
